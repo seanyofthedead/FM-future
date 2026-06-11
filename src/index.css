@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* Official Guidehouse brand font (Inter — digital typeface from docs/branding). */
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Official Guidehouse brand tokens (source: docs/branding — Color Palette + ADA Compliance).
+   Tailwind v4 reads these as color/font utilities, e.g. bg-brand-navy, text-brand-green.
+   Green choices are 508-driven: Forest (#31863E) is the only core green that clears 4.5:1
+   on white; the bright Guidehouse Green (#93D500) is reserved for dark surfaces (the logo). */
+@theme {
+  --color-brand-navy: #1b1b1b;      /* Black — primary dark surface (brand leads with black) */
+  --color-brand-navy-700: #2e2e2e;  /* lifted black — hover/active on dark */
+  --color-brand-green: #31863e;     /* Forest — 508-safe green on white (4.6:1) */
+  --color-brand-green-600: #26622e; /* deeper Forest — hover */
+  --color-brand-lime: #93d500;      /* Guidehouse Green — bright accent / logo on dark (11.8:1 on black) */
+  --color-brand-sand: #f1f5f3;      /* neutral light surface (no warm sand in the GH palette) */
+  --color-ink: #1b1b1b;             /* body text — brand Black */
+  --color-muted: #5a6568;           /* muted neutral (≈5.3:1 on white) */
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+:root { color-scheme: light; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #ffffff;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes pbcReveal {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Animated connector for the Overview pipeline diagram */
+.pipeline-flow {
+  background-image: linear-gradient(90deg, var(--color-brand-green) 0 50%, transparent 50% 100%);
+  background-size: 14px 2px;
+  background-repeat: repeat-x;
+  animation: pipelineFlow 0.8s linear infinite;
+  opacity: 0.6;
+}
+@keyframes pipelineFlow {
+  from { background-position: 0 0; }
+  to   { background-position: 14px 0; }
+}
