@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FM of the Future — Editor Packet</title>
+    <style>
+      :root {
+        --navy: #0b1b2b;
+        --navy2: #14304a;
+        --gold: #b07a33;
+        --green: #2f7d4f;
+        --rust: #8e4a35;
+        --ink: #1c2430;
+        --muted: #5a6675;
+        --line: #d9dee5;
+        --tint: #f3f5f8;
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--ink);
+        margin: 0;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .page { padding: 34px 40px; }
+      h1 { font-size: 26px; margin: 0 0 2px; color: var(--navy); letter-spacing: -0.2px; }
+      h2 {
+        font-size: 15px;
+        color: var(--navy);
+        margin: 26px 0 8px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid var(--navy);
+      }
+      h3 { font-size: 12.5px; margin: 14px 0 4px; color: var(--navy2); }
+      .sub { color: var(--muted); font-size: 12.5px; margin: 0 0 4px; }
+      .bar { height: 6px; background: var(--gold); border-radius: 3px; margin: 14px 0 0; }
+      .lead {
+        background: var(--tint);
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--gold);
+        padding: 12px 14px;
+        border-radius: 6px;
+        margin: 16px 0;
+      }
+      .lead b { color: var(--navy); }
+      ol.steps { margin: 6px 0 0; padding-left: 20px; }
+      ol.steps li { margin: 5px 0; }
+      table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+      th, td { text-align: left; padding: 6px 8px; vertical-align: top; border-bottom: 1px solid var(--line); }
+      th { background: var(--navy); color: #fff; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; }
+      td { font-size: 11px; }
+      tr.slate td { background: #fbf1ea; }
+      .tc { font-family: "Courier New", monospace; white-space: nowrap; font-size: 10.5px; }
+      .tag {
+        display: inline-block; font-size: 9.5px; font-weight: bold; padding: 1px 6px;
+        border-radius: 3px; text-transform: uppercase; letter-spacing: 0.3px;
+      }
+      .tag.live { background: #e4f0e8; color: var(--green); border: 1px solid #b6d8c2; }
+      .tag.make { background: #f6e2d8; color: var(--rust); border: 1px solid #e2b8a4; }
+      .vo { color: var(--muted); font-style: italic; }
+      .make-card {
+        border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; margin: 8px 0;
+        border-left: 4px solid var(--rust);
+      }
+      .make-card .hd { font-weight: bold; color: var(--navy); }
+      .make-card .need { color: var(--rust); font-weight: bold; }
+      .flag { background: #fff6e8; border: 1px solid #f0d28a; border-radius: 6px; padding: 10px 12px; margin: 10px 0; }
+      .files li { margin: 3px 0; }
+      code { background: var(--tint); padding: 1px 5px; border-radius: 3px; font-size: 10.5px; }
+      .foot { margin-top: 26px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--muted); font-size: 10.5px; }
+      @page { margin: 14mm 12mm; }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>Financial Management of the Future — Editor Packet</h1>
+      <p class="sub">Tradewinds demo video · visual cut + voiceover assembly · 4:41 (281 s) · 1920×1080 · silent</p>
+      <div class="bar"></div>
+
+      <div class="lead">
+        You have a <b>finished visual cut of the 14 product shots</b>, recorded live from the app at true
+        1080p, already placed on the storyboard timeline. Your job: <b>lay Sean's voiceover against it</b>
+        (it syncs shot-for-shot) and <b>create + drop in the 6 shots that don't exist yet</b> (Joe on camera,
+        b-roll, and the motion graphics). Everything you need to know is below.
+      </div>
+
+      <h2>1 · What's in the package</h2>
+      <ul class="files">
+        <li><b>FM-Future_live-product_1080p_silent.mp4</b> — <span class="tag live">use this</span> the cut to work from. Real app footage; 14 product shots in place, 6 placeholder slates to replace.</li>
+        <li>FM-Future_VO-sync-master_1080p_silent.mp4 — backup (crisp app stills instead of motion); identical timeline.</li>
+        <li>Sean's voiceover track — the storyboard script, ~4:41 (delivered separately).</li>
+        <li>This packet + the source storyboard (<code>docs/video-draft-shotlist.md</code>) for full per-shot capture notes.</li>
+      </ul>
+
+      <h2>2 · How to assemble (3 steps)</h2>
+      <ol class="steps">
+        <li>Drop <b>FM-Future_live-product_1080p_silent.mp4</b> on the timeline at 00:00. It is 16:9, 1080p, 30 fps, <b>no audio</b>.</li>
+        <li>Lay Sean's <b>voiceover</b> on the audio track starting at 00:00. Every shot already fills its exact storyboard window, so the narration lands on the right picture with no trimming. Use the alignment table below to confirm each line sits on its shot.</li>
+        <li>Replace each of the <b>6 navy "INSERT …" slates</b> with the real footage (Section 4). Match the slate's duration so the timeline — and the VO sync — stay intact.</li>
+      </ol>
+      <p class="sub">No on-screen captions or lower-thirds are baked in; product UI text is already in the footage. Don't re-key it.</p>
+
+      <h2>3 · Shot &amp; voiceover alignment</h2>
+      <p class="sub"><span class="tag live">LIVE</span> = finished app footage in the cut · <span class="tag make">CREATE</span> = placeholder slate you replace. Timecodes are cumulative from 0:00.</p>
+      <table>
+        <thead>
+          <tr><th>#</th><th>In–Out</th><th>Dur</th><th>Source</th><th>On screen</th><th>Voiceover line it aligns to</th></tr>
+        </thead>
+        <tbody>
+          <tr class="slate"><td>1</td><td class="tc">0:00–0:08</td><td>8s</td><td><span class="tag make">CREATE</span></td><td>Joe to camera, neutral bg, GH lower-third</td><td class="vo">"We're Guidehouse… one of the hardest problems in federal financial management."</td></tr>
+          <tr class="slate"><td>2</td><td class="tc">0:08–0:28</td><td>20s</td><td><span class="tag make">CREATE</span></td><td>Desaturated b-roll: paper stacks, inboxes, "auditor request"</td><td class="vo">"Audit readiness is broken… requests bounce between inboxes for weeks."</td></tr>
+          <tr class="slate"><td>3</td><td class="tc">0:28–0:46</td><td>18s</td><td><span class="tag make">CREATE</span></td><td>Cost icons → grid of agencies → lift into brand palette</td><td class="vo">"The cost shows up everywhere… the problem we built FM of the Future to solve."</td></tr>
+          <tr><td>4</td><td class="tc">0:46–1:01</td><td>15s</td><td><span class="tag live">LIVE</span></td><td>Overview hero "Audit-ready, every day" + one-product header</td><td class="vo">"…a single product Guidehouse already runs in production — two capabilities, same records."</td></tr>
+          <tr><td>5</td><td class="tc">1:01–1:15</td><td>14s</td><td><span class="tag live">LIVE</span></td><td>Pipeline diagram: TX-1000043 travels Reconcile→Package→Deliver</td><td class="vo">"…one connected workflow: continuously reconciled… already defensible and ready to hand over."</td></tr>
+          <tr><td>6</td><td class="tc">1:15–1:29</td><td>14s</td><td><span class="tag live">LIVE</span></td><td>"Reconciliation, on autopilot" title card</td><td class="vo">"First, Agentic Reconciliation — where most audit programs lose time…"</td></tr>
+          <tr><td>7</td><td class="tc">1:29–1:42</td><td>13s</td><td><span class="tag live">LIVE</span></td><td>Source datasets (PO/GR/GL); job runs; reconciled result</td><td class="vo">"We point Agentic Recon at two or more source datasets… match, surface mismatches, explain why."</td></tr>
+          <tr><td>8</td><td class="tc">1:42–1:55</td><td>13s</td><td><span class="tag live">LIVE</span></td><td>"Review queue — exceptions only"; first rationale card expanded</td><td class="vo">"Every mismatch comes with the agent's rationale — review exceptions, not entire ledgers."</td></tr>
+          <tr><td>9</td><td class="tc">1:55–2:07</td><td>12s</td><td><span class="tag live">LIVE</span></td><td>Audit-ready output card + TX-1000043 handoff + "Send to PBC"</td><td class="vo">"…a clean, reconciled record set — defensible, ready the moment an auditor asks."</td></tr>
+          <tr><td>10</td><td class="tc">2:07–2:19</td><td>12s</td><td><span class="tag live">LIVE</span></td><td>PBC title + "From Reconciliation" banner (same TX)</td><td class="vo">"Next, the PBC Request Agent — turns that reconciled data into an auditor-ready package…"</td></tr>
+          <tr><td>11</td><td class="tc">2:19–2:31</td><td>12s</td><td><span class="tag live">LIVE</span></td><td>Request submitted; "Interpreted &amp; routed · TX-1000043"</td><td class="vo">"Here's the PBC Request Agent in action — an operator submits a request for a supporting record."</td></tr>
+          <tr><td>12</td><td class="tc">2:31–2:47</td><td>16s</td><td><span class="tag live">LIVE</span></td><td>Provenance trail + retrieved-source cards (PO/GR/GL)</td><td class="vo">"The agent reasons across source systems, retrieves the artifacts, assembles a response — provenance on every line."</td></tr>
+          <tr><td>13</td><td class="tc">2:47–3:03</td><td>16s</td><td><span class="tag live">LIVE</span></td><td>Auditor-ready package: "~3 days → Delivered in minutes", SFA chip</td><td class="vo">"What used to take 3 days is delivered in minutes — defensible, repeatable, accelerating the mission."</td></tr>
+          <tr><td>14</td><td class="tc">3:03–3:13</td><td>10s</td><td><span class="tag live">LIVE</span></td><td>Lineage chain: Reconciliation → PBC → package; auditor outside</td><td class="vo">"…one product, one pipeline — the same record, never leaving the product."</td></tr>
+          <tr><td>15</td><td class="tc">3:13–3:29</td><td>16s</td><td><span class="tag live">LIVE</span></td><td>"In production today" missions strip (OSW, Army, ATC)</td><td class="vo">"…in production today across federal missions — OSW Comptroller, the Army, Army Transportation Command…"</td></tr>
+          <tr><td>16</td><td class="tc">3:29–3:47</td><td>18s</td><td><span class="tag live">LIVE</span></td><td>"Built on accredited building blocks" strip</td><td class="vo">"…orchestrating accredited building blocks — Databricks… human-in-the-loop guardrails on every output."</td></tr>
+          <tr class="slate"><td>17</td><td class="tc">3:47–4:05</td><td>18s</td><td><span class="tag make">CREATE</span></td><td>TRL / SBIR Phase III badge motif (motion graphic)</td><td class="vo">"…a subscription product at Technology Readiness Level [TRL X]… eligible for SBIR Phase III direct award…"</td></tr>
+          <tr><td>18</td><td class="tc">4:05–4:20</td><td>15s</td><td><span class="tag live">LIVE</span></td><td>"Offered as a subscription" strip (no rates shown)</td><td class="vo">"…sold as a subscription, scoped to your data and audit workload… a quote that fits."</td></tr>
+          <tr class="slate"><td>19</td><td class="tc">4:20–4:34</td><td>14s</td><td><span class="tag make">CREATE</span></td><td>CTA card: contact + CDAO Tradewinds Silver Aisle link / QR</td><td class="vo">"Find FM of the Future on the CDAO Tradewinds Silver Aisle…"</td></tr>
+          <tr class="slate"><td>20</td><td class="tc">4:34–4:41</td><td>7s</td><td><span class="tag make">CREATE</span></td><td>Guidehouse logo lockup, fade to black</td><td class="vo">"Guidehouse — mission-ready innovation, audit-ready every day."</td></tr>
+        </tbody>
+      </table>
+
+      <h2>4 · What still needs to be created (6 shots)</h2>
+      <p class="sub">These render as navy "INSERT …" placeholder slates in the cut. Build each to the duration shown and drop it into its window.</p>
+
+      <div class="make-card"><span class="hd">Shot 1 · 8s · on-camera.</span> Joe to camera, neutral background, Guidehouse lower-third. <span class="need">Need: filmed footage.</span></div>
+      <div class="make-card"><span class="hd">Shot 2 · 20s · b-roll.</span> Desaturated montage — paper stacks, scrolling sheets, inbox counter spiking, an "auditor request" badge. <span class="need">Need: b-roll footage.</span></div>
+      <div class="make-card"><span class="hd">Shot 3 · 18s · motion graphic.</span> Three cost icons → widen to a grid of agencies → lift from desaturated into brand palette. <span class="need">Need: mograph.</span></div>
+      <div class="make-card"><span class="hd">Shot 17 · 18s · motion graphic.</span> SBIR topic → Phase III badge → "sole-source eligible"; stopwatch · shield · scale icons. <span class="need">Need: mograph AND the real TRL number (script says [TRL X]).</span></div>
+      <div class="make-card"><span class="hd">Shot 19 · 14s · motion graphic.</span> CTA card — contact + Tradewinds Silver Aisle link/QR. <span class="need">Need: mograph AND the confirmed Silver-Aisle URL + QR.</span></div>
+      <div class="make-card"><span class="hd">Shot 20 · 7s · motion graphic.</span> Final Guidehouse logo lockup on brand background, fade to black (optional audio sting). <span class="need">Need: end-card asset.</span></div>
+
+      <div class="flag">
+        <b>Two decisions to lock before final render:</b>
+        <b>(1)</b> the real <b>TRL number</b> for Shot 17 (currently a placeholder), and
+        <b>(2)</b> the confirmed <b>Tradewinds Silver Aisle contact + QR</b> for Shot 19.
+      </div>
+
+      <h2>5 · Specs &amp; notes</h2>
+      <ul>
+        <li><b>Deliverable:</b> 16:9, 1920×1080, 30 fps, <b>no audio track</b> (VO is separate). Total 4:41 (281 s).</li>
+        <li><b>Sync:</b> every product shot is cut to its storyboard duration, so the VO aligns by simply starting both at 00:00. Keep replacements the same length as their slates.</li>
+        <li><b>One record threads the whole demo:</b> TX-1000043 / VENDOR-035 / $14,026.62 — it is real on screen, not staged.</li>
+        <li><b>If you want higher-polish product shots</b> (e.g. featuring the live progress-bar / card-reveal micro-animations): the app is recordable at <code>localhost:5180</code> (<code>npm run dev</code>) — see §C of <code>docs/video-draft-shotlist.md</code> for the exact capture steps. The current cut rests on the settled states the narration sits on.</li>
+      </ul>
+
+      <div class="foot">
+        Source of truth for script + durations: <code>docs/fm-future-storyboard.xlsx</code> and <code>docs/video-draft-shotlist.md</code>.
+        Reference stills for every product state: <code>docs/video-frames/</code>.
+      </div>
+    </div>
+  </body>
+</html>
