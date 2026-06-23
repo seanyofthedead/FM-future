@@ -1,5 +1,7 @@
 import Papa from 'papaparse'
 import { bandFor, type ReconRow, type MatchDetail } from './types'
+import uiTransactionsCsv from './ui_transactions.csv?raw'
+import canonicalVariancesCsv from './canonical_variances.csv?raw'
 
 const num = (v: unknown, f = 0) => {
   const n = Number(String(v ?? '').replace(/[^0-9.\-]/g, ''))
@@ -17,10 +19,7 @@ const str = (v: unknown) => {
 }
 const bool = (v: unknown) => String(v ?? '').trim().toUpperCase() === 'TRUE'
 
-async function parseCsv(path: string): Promise<Record<string, string>[]> {
-  const res = await fetch(path)
-  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`)
-  const text = await res.text()
+function parseCsv(text: string): Record<string, string>[] {
   return Papa.parse<Record<string, string>>(text, { header: true, skipEmptyLines: true }).data
 }
 
@@ -50,14 +49,13 @@ function toMatch(c: Record<string, string>): MatchDetail {
 }
 
 /**
- * Loads the real Agentic Recon CSVs from /public/data and joins ui_transactions with
- * canonical_variances on TransactionID. Returns rows ready for the Reconciliation module.
+ * Loads the real Agentic Recon CSVs (bundled at build time so the app works offline,
+ * including as a single HTML file) and joins ui_transactions with canonical_variances
+ * on TransactionID. Returns rows ready for the Reconciliation module.
  */
 export async function loadReconData(): Promise<ReconRow[]> {
-  const [ui, canonical] = await Promise.all([
-    parseCsv('/data/ui_transactions.csv'),
-    parseCsv('/data/canonical_variances.csv'),
-  ])
+  const ui = parseCsv(uiTransactionsCsv)
+  const canonical = parseCsv(canonicalVariancesCsv)
 
   const canonById = new Map<string, Record<string, string>>()
   for (const c of canonical) {
