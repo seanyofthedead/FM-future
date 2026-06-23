@@ -32,17 +32,17 @@ interchangeable on the editing timeline.
 Six shots are content that doesn't exist in the repo and can't be generated — they render
 as labeled placeholder slates:
 
-| Shot | Window    | Placeholder     | Needs                                            |
-| ---- | --------- | --------------- | ------------------------------------------------ |
-| 1    | 0:00–0:08 | produced opener | title card / b-roll cold open (no on-camera)           |
-| 2    | 0:08–0:28 | b-roll montage  | desaturated b-roll                               |
-| 3    | 0:28–0:46 | motion graphic  | cost-icons → agency-grid mograph                 |
-| 17   | 3:47–4:05 | motion graphic  | TRL/SBIR badge — **fill in the real TRL number** |
-| 19   | 4:20–4:34 | motion graphic  | CTA card — **confirm Silver Aisle contact + QR** |
-| 20   | 4:34–4:41 | motion graphic  | Guidehouse logo-lockup end card                  |
+| Shot | Window    | Placeholder     | Needs                                        |
+| ---- | --------- | --------------- | -------------------------------------------- |
+| 1    | 0:00–0:08 | produced opener | title card / b-roll cold open (no on-camera) |
+| 2    | 0:08–0:28 | b-roll montage  | desaturated b-roll                           |
+| 3    | 0:28–0:46 | motion graphic  | cost-icons → agency-grid mograph             |
+| 17   | 3:47–4:05 | motion graphic  | TRL/SBIR Phase III badge graphic             |
+| 19   | 4:20–4:34 | motion graphic  | CTA card — Silver Aisle link + QR            |
+| 20   | 4:34–4:41 | motion graphic  | Guidehouse logo-lockup end card              |
 
-Until those six are supplied (plus the TRL number and the QR/contact), this is a
-production-grade **product** cut with placeholders — not a complete broadcast final.
+Until those six are supplied, this is a production-grade **product** cut with
+placeholders — not a complete broadcast final.
 
 ## How the live-product footage was captured
 
