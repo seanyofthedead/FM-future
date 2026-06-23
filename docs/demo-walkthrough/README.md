@@ -18,7 +18,7 @@ This is the exact product UI that gets screen-recorded for the demo.
 | `shot-14-lineage.png` | 14 | End-to-end lineage: one record threaded through the boundary frame (reconcile→package→deliver), auditor outside. |
 | `shot-15-16-18-strips.png` | 15, 16, 18 | "In production today" missions strip; "Built on accredited building blocks" (Databricks · Cloud-native · Agentic orchestration · HITL); subscription / contact-for-a-quote. |
 
-**Not pictured (produced video, not product UI):** Shots 1–3 (Joe on camera + b-roll), Shot 17
+**Not pictured (produced video, not product UI):** Shots 1–3 (cold open + b-roll), Shot 17
 (TRL/SBIR pitch badges), Shot 19 (CTA/QR), Shot 20 (final logo lockup — the Acon is visible in
 every header here).
 

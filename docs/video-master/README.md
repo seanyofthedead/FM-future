@@ -34,7 +34,7 @@ as labeled placeholder slates:
 
 | Shot | Window    | Placeholder     | Needs                                            |
 | ---- | --------- | --------------- | ------------------------------------------------ |
-| 1    | 0:00–0:08 | on-camera (Joe) | Joe-to-camera footage + GH lower-third           |
+| 1    | 0:00–0:08 | produced opener | title card / b-roll cold open (no on-camera)           |
 | 2    | 0:08–0:28 | b-roll montage  | desaturated b-roll                               |
 | 3    | 0:28–0:46 | motion graphic  | cost-icons → agency-grid mograph                 |
 | 17   | 3:47–4:05 | motion graphic  | TRL/SBIR badge — **fill in the real TRL number** |

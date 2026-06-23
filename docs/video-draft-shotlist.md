@@ -2,7 +2,7 @@
 
 **Purpose.** Everything a colleague needs to record the visuals and cut them against
 Sean's recorded narration. The narration **is** the storyboard script (`docs/fm-future-storyboard.xlsx`,
-column C, "Joe (VO)"). This draft locks the picture to that script, shot for shot.
+column C). Sean voices the entire video. This draft locks the picture to that script, shot for shot.
 
 **Total runtime: 4:41 (281 s)** — matches the storyboard's summed `Est. sec` exactly.
 Every product screen recording below is cut to its storyboard duration so each visual lands
@@ -26,7 +26,7 @@ so the "one record, one pipeline" claim is real on camera, not staged.
 | Bucket | Shots | Source | Status |
 |---|---|---|---|
 | **Product screen recording** | 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18 | Live app at :5180 | ✅ recordable now |
-| **Produced video / on-camera** | 1, 2, 3 (Joe + b-roll) | Not the app — Joe on camera + montage | ◻ colleagues' footage |
+| **Produced video / produced** | 1, 2, 3 | Not the app — produced cold open + b-roll + montage | ◻ colleagues' footage |
 | **Produced motion graphic** | 17 (TRL/SBIR badge), 19 (CTA/QR), 20 (logo lockup) | Motion graphics / end cards | ◻ design |
 
 **Nothing in the product path is missing** — the storyboard's three demo beats (typed request,
@@ -47,7 +47,7 @@ Lay this against the narration track. Timecodes are cumulative from 0:00.
 
 | # | In–Out | Dur | Element | Source | Screen / route | On-screen action (the picture) | Narration beat (what Sean is saying) |
 |---|---|---|---|---|---|---|---|
-| 1 | 0:00–0:08 | 8s | Problem | 🎥 On-cam | — | Joe to camera, neutral bg, GH lower-third | "We're Guidehouse… one of the hardest problems in federal financial management." |
+| 1 | 0:00–0:08 | 8s | Problem | 🎥 Produced | — | Cold open - title card / problem b-roll (no on-camera) | "We're Guidehouse… one of the hardest problems in federal financial management." |
 | 2 | 0:08–0:28 | 20s | Problem | 🎬 B-roll | — | Desaturated montage: paper stacks, scrolling sheets, inbox counter spiking, "auditor request" badge | "Audit readiness… is broken… records requests bounce between inboxes for weeks." |
 | 3 | 0:28–0:46 | 18s | Problem | 🎬 Mograph | — | 3 cost icons → widen to grid of agencies → lift from desaturated into brand palette | "The cost shows up everywhere… That's the problem we built Financial Management of the Future to solve." |
 | 4 | 0:46–1:01 | 15s | Bridge | 🟢 App | **Overview** `/` | Land on hero "Audit-ready, every day"; header wordmark + nav (Recon + PBC read as ONE product) | "…a single product Guidehouse already runs in production… two capabilities working on the same records." |
@@ -68,7 +68,7 @@ Lay this against the narration track. Timecodes are cumulative from 0:00.
 | 19 | 4:20–4:34 | 14s | Close | 🎬 Mograph | — | CTA card: contact + CDAO Tradewinds Silver Aisle link/QR (confirm QR) | "Find Financial Management of the Future on the CDAO Tradewinds Silver Aisle…" |
 | 20 | 4:34–4:41 | 7s | Close | 🎬 Mograph | — | Final Guidehouse logo lockup on brand bg, fade to black, optional sting | "Guidehouse — mission-ready innovation, audit-ready every day." |
 
-🟢 App = record from :5180 · 🎥 On-cam · 🎬 Produced video/motion graphic
+🟢 App = record from :5180 · 🎥 Produced · 🎬 Produced video/motion graphic
 
 **Product capture subtotal: 196 s across 14 shots. Produced/on-cam: 85 s across 6 shots.**
 
@@ -164,7 +164,7 @@ timing sheet — note Overview footage (Pass 1) is split across Shots 4–5 *and
 - ✅ Pass 1 recording — Overview (Shots 4, 5, 15, 16, 18)
 - ✅ Pass 2 recording — guided spine (Shots 6–13)
 - ✅ Pass 3 recording — Lineage (Shot 14)
-- ◻ Joe on-camera (Shot 1) + b-roll montage (Shot 2) + cost/agencies mograph (Shot 3)
+- ◻ Cold-open opener (Shot 1) + b-roll montage (Shot 2) + cost/agencies mograph (Shot 3)
 - ◻ TRL/SBIR badge graphic (Shot 17) — **needs the real TRL number filled in**
 - ◻ CTA/Silver-Aisle card with confirmed contact + QR (Shot 19)
 - ◻ Guidehouse logo-lockup end card + optional audio sting (Shot 20)

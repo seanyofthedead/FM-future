@@ -11,7 +11,7 @@
 
 | Shot | Script beat (C) | Visual ask (E) | Product screen | Status |
 |---|---|---|---|---|
-| 1 | "We're Guidehouse…" | Joe on cam, GH lower-third | — | 🎬 |
+| 1 | "We're Guidehouse…" | Cold open - title card / b-roll (no on-camera) | — | 🎬 |
 | 2 | "Audit readiness is broken" | Desaturated b-roll, inbox spike | — | 🎬 |
 | 3 | "The cost shows up everywhere" | 3 cost icons → grid of agencies → brand palette | — | 🎬 |
 | 4 | "One product, two capabilities" | One wordmark; Recon + PBC **inside** it | Overview hero + header/nav | ✅ (boundary visual could be explicit) |
@@ -69,7 +69,7 @@
    strip (no rates shown, per v10).
 
 ### Deliberately NOT built into the product (produced video / motion graphics)
-- **Shots 1–3** — Joe on camera + desaturated b-roll (problem framing). No product capture.
+- **Shots 1–3** — produced cold open + desaturated b-roll (problem framing). No product capture.
 - **Shot 17** — TRL level + SBIR Phase III eligibility are pitch claims with placeholder
    values ("[TRL X]"); these belong in a produced badge graphic and were **not fabricated**
    in the product.

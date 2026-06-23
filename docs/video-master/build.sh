@@ -56,7 +56,7 @@ motion_seg() {
 }
 
 echo "== slates =="
-slate "$SEG/s01.mp4"  8 "SHOT 1"  "Problem - on camera (Joe to camera, GH lower-third)" "INSERT ON-CAMERA FOOTAGE"     "8s"
+slate "$SEG/s01.mp4"  8 "SHOT 1"  "Problem - cold open (title card / b-roll, no on-camera)" "INSERT PRODUCED OPENER"     "8s"
 slate "$SEG/s02.mp4" 20 "SHOT 2"  "Problem - desaturated b-roll montage"                 "INSERT B-ROLL"                "20s"
 slate "$SEG/s03.mp4" 18 "SHOT 3"  "Problem - cost icons to agency grid (mograph)"        "INSERT MOTION GRAPHIC"        "18s"
 slate "$SEG/s17.mp4" 18 "SHOT 17" "TRL / SBIR Phase III badge (mograph)"                 "INSERT MOTION GRAPHIC"        "18s - FILL IN REAL TRL VALUE"
