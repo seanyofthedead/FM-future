@@ -19,7 +19,7 @@ cp "C:/Windows/Fonts/arial.ttf" "$WORK/reg.ttf"
 BOLD="$WORK/bold.ttf"; REG="$WORK/reg.ttf"
 
 # Common encode params so every segment concatenates cleanly (-c copy safe).
-enc=(-c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -r 30 -video_track_timescale 30000 -an)
+enc=(-c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -r 24000/1001 -video_track_timescale 24000 -an  # 23.976 fps per TSM spec (23.98FPS))
 
 # --- slate(out, dur, SHOT, subtitle, insertline, metaline) ----------------
 slate() {
@@ -50,7 +50,7 @@ still_seg() {
 motion_seg() {
   local out="$1" dur="$2" clip="$3"
   "$FF" -y -hide_banner -loglevel error -i "$CLIPS/$clip" \
-    -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=${NAVY},setsar=1,fps=30,tpad=stop_mode=clone:stop_duration=45,format=yuv420p" \
+    -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=${NAVY},setsar=1,fps=24000/1001,tpad=stop_mode=clone:stop_duration=45,format=yuv420p" \
     -t "$dur" "${enc[@]}" "$out"
   echo "  motion $out (${dur}s) <- $clip"
 }

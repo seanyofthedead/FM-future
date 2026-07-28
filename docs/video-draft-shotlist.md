@@ -150,7 +150,11 @@ hand — because of hash routing it's easy to get wrong; the button is foolproof
 
 **Picture**
 
-- Aspect 16:9, **1920×1080**, ≥30 fps. No audio track (narration is delivered separately).
+- Aspect 16:9, **1920×1080**, **23.976 fps (spec says 23.98FPS)** — not 30. `.mp4` under 1 GB,
+  **Rec709 or sRGB**, audio stereo or mono-mix on the final mixed deliverable. No audio track on
+  these silent masters (narration is delivered separately).
+  _(Source: [Tradewinds FAQs](https://www.tradewindai.com/faqs). The v1 masters were built at
+  30 fps — the build scripts are now corrected, but the existing renders are off-spec.)_
 - No baked-in captions/subtitles. On-screen **text** in the storyboard (column D) is _product UI text_
   already in the recordings or part of the produced graphics — don't re-key it as overlays unless a
   shot is a produced card (3, 17, 19, 20).

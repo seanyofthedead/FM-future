@@ -37,10 +37,10 @@ at 4:41 (#6).
     - Where: Shot 15 · Basis: VII.d.iii — no restrictive markings (gate) · Owner: Angel / Bizrat · Status: Names as text only, no seals. **OSW Comptroller removed Jul 2026 at client request**; Shot 15 now names Dept. of the Army + Army Transportation Command. Re-confirm those two are cleared to name.
 - [ ] **P1 · #5** — Clear or remove third-party vendor logos (incl. Databricks) in the tech-stack ribbon.
     - Where: Shot 16 · Basis: VII.d.iii — markings (gate) · Owner: Jake / Angel · Status: Open
-- [ ] **P1 · #6** — Lock final cut at or under 4:45 (hard cap 5:00; over-length is NOT assessed).
+- [ ] **P1 · #6** — Lock final cut at or under 4:45 (hard cap 5:00; "Video submissions which exceed the length limitation of 5:00 minutes will not be assessed").
     - Where: Full timeline · Basis: VII.d.i / VIII.1 · Owner: Jeff / Sean · Status: Open
-- [ ] **P1 · #7** — Confirm export meets format: HD 1920x1080, .mp4 < 1.0 GB, Rec709/sRGB.
-    - Where: Encode · Basis: VII.d.ii / VIII.5 · Owner: Jeff · Status: Open
+- [ ] **P1 · #7** — Confirm export meets format: HD 1920x1080, **23.98FPS**, .mp4 < 1.0 GB, Rec709/sRGB, audio stereo or mono-mix.
+    - Where: Encode · Basis: VII.d.ii / VIII.5 · Owner: Jeff · Status: Open — ⚠️ **frame rate was missing from this item and the v1 masters were rendered at 30 fps.** Spec is **23.98FPS** ([Tradewinds FAQs](https://www.tradewindai.com/faqs)). Both build scripts now encode 24000/1001; the existing renders in `docs/video-master/` are off-spec and must be rebuilt.
 - [ ] **P1 · #8** — QC graphics + demo screens for legibility at 1080p (clock/citation, tech ribbon, reconciliation report text).
     - Where: Shots 5,13,16; demos · Basis: VIII.3 · Owner: Jeff / Sean · Status: Open
 - [x] **P1 · #9** — Ensure NO proprietary / CUI / restrictive markings anywhere; valid copyright only.
@@ -83,3 +83,11 @@ at 4:41 (#6).
   which does not exist. It is the **CDAO Tradewinds Solutions Marketplace SBIR/STTR Aisle**
   ("SBIR Aisle").
     - Where: Shot 19 script + CTA card · Basis: VII.c.xvii / accuracy · Owner: Sean · Status: Fixed in the storyboard and all production docs (Jul 2026). Needs the Shot 19 re-record + CTA card re-render. Refs: https://www.tradewindai.com/sbir-sttr-aisle · https://www.tradewindai.com/tw-marketplace
+- [ ] **P1 · #24** — Business Model element: the announcement asks vendors to "Describe how your
+  company's business model works" — general structure (fixed-price licenses, services, etc.),
+  whether it varies by volume or complexity, commercial viability, and **alignment with TRL**.
+  The prohibition is on rates/non-public pricing only.
+    - Where: Shots 17–18 · Basis: Business Model element (10% of the rubric) · Owner: Angel · Status: ⚠️ **Open and now at risk.** Removing all sales-model language (Jul 2026 feedback) leaves this element thin. See decision B in `docs/video-feedback-2026-07.md`. Source: [Tradewinds FAQs](https://www.tradewindai.com/faqs)
+- [x] **P2 · #25** — Rubric weights confirmed: Defining the Problem **15%**, Accelerating the Mission
+  **40%**, Advancing the State of the Art **35%**, Business Model **10%**.
+    - Where: Whole video · Basis: TSM evaluation rubric · Owner: Sean · Status: Verified Jul 2026 — mission + state of the art are **75%** of the score, which is why Angel's first note was the highest-value one.

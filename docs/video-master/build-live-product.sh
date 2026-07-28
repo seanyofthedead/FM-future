@@ -15,7 +15,7 @@ cp "C:/Windows/Fonts/arialbd.ttf" "$WORK/bold.ttf"
 cp "C:/Windows/Fonts/arial.ttf" "$WORK/reg.ttf"
 BOLD="$WORK/bold.ttf"; REG="$WORK/reg.ttf"
 
-enc=(-c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -r 30 -video_track_timescale 30000 -an)
+enc=(-c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -r 24000/1001 -video_track_timescale 24000 -an  # 23.976 fps per TSM spec (23.98FPS))
 
 slate() {
   local out="$1" dur="$2" shot="$3" sub="$4" ins="$5" meta="$6"
@@ -39,7 +39,7 @@ cutshot() {
   total=$("$FP" -v error -show_entries format=duration -of csv=p=0 "$src")
   ss=$(awk "BEGIN{s=$total-$dur; if(s<0)s=0; print s}")
   "$FF" -y -hide_banner -loglevel error -ss "$ss" -i "$src" -t "$dur" \
-    -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=${NAVY},setsar=1,fps=30,format=yuv420p" \
+    -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=${NAVY},setsar=1,fps=24000/1001,format=yuv420p" \
     "${enc[@]}" "$SEG/$id.mp4"; echo "  cut $id (${dur}s) from ${total}s"
 }
 
