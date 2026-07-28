@@ -8,6 +8,12 @@ column C). Sean voices the entire video. This draft locks the picture to that sc
 Every product screen recording below is cut to its storyboard duration so each visual lands
 on its own line of narration.
 
+> **Revision 2 (Jul 2026 client feedback) — this supersedes the v1 timing sheet.** Shots
+> 13/16/18 were re-timed (16→18 s, 18→21 s, 15→10 s; total unchanged at 281 s), the Overview
+> and PBC screens changed, and the VO must be **re-recorded** from Shot 13 onward. Shot 17's
+> SBIR pronunciation is a re-record too. See **`docs/video-feedback-2026-07.md`** for the
+> item-by-item response and the three open decisions.
+
 **Deliverable type:** visual-only, **no audio** (Sean's VO is separate). 16:9, 1080p.
 
 > ⚠️ One thing to know going in: the app's demo animations run **faster** than the narration
@@ -31,7 +37,7 @@ so the "one record, one pipeline" claim is real on camera, not staged.
 
 **Nothing in the product path is missing** — the storyboard's three demo beats (typed request,
 product-boundary frame, export/share + toast) and the supporting strips (missions, building
-blocks, subscription) were all built and verified live on 2026-06-10 (`docs/storyboard-alignment.md`).
+blocks, closing contact strip) were all built and verified live on 2026-06-10 (`docs/storyboard-alignment.md`).
 
 **The one judgment call for Shot 17:** TRL level and SBIR Phase III are _pitch claims_ with a
 placeholder value (`[TRL X]`). They were deliberately **not** fabricated in the product, so there
@@ -58,12 +64,12 @@ Lay this against the narration track. Timecodes are cumulative from 0:00.
 | 10  | 2:07–2:19 | 12s | Element 2      | 🟢 App      | **PBC** (click "Send TX-1000043 to PBC →")                         | Lands on PBC header "Agentic record requests, packaged for the auditor" — title card. "From Reconciliation" banner shows the same TX.                          | "Next, the PBC Request Agent — what turns that reconciled data into an auditor-ready package…"                                               |
 | 11  | 2:19–2:31 | 12s | Element 2      | 🟢 App      | **PBC** (same take)                                                | "Submit a request" compose card shows the prefilled natural-language request; auto-submits; "Interpreted & routed to PBC-… · TX-1000043"                       | "Here's the PBC Request Agent in action. An operator submits a request for a supporting record."                                             |
 | 12  | 2:31–2:47 | 16s | Element 2      | 🟢 App      | **PBC** (same take)                                                | Provenance trail reveals step-by-step; "Retrieved sources" cards (PO-23577 / DOC-795613 / GL-00043) stagger in; "Every record traceable" chip; package renders | "The agent reasons across source systems, retrieves the reconciled artifacts, and assembles a complete response — provenance on every line." |
-| 13  | 2:47–3:03 | 16s | Element 2 +SFA | 🟢 App      | **PBC** (same take, scroll)                                        | Auditor-ready package: "Before: ~3 days" struck through → "Delivered in minutes"; cited source line; "Defensible" + SFA chip "Streamlining Business Processes" | "What used to take 3 days… is delivered in minutes — defensible, repeatable… accelerating the mission."                                      |
-| 14  | 3:03–3:13 | 10s | Bridge         | 🟢 App      | **Lineage** `/lineage`                                             | One-record chain inside the product boundary: AI Reconciliation → PBC Request → Auditor-ready package; TX-1000043 threaded; Auditor node outside the frame     | "…one product, one pipeline. The same record moves from reconciliation through packaging… without ever leaving the product."                 |
-| 15  | 3:13–3:29 | 16s | Element 3      | 🟢 App      | **Overview** `/` (scroll to "In production today")                 | "In production today" missions strip: OSW Comptroller · Dept. of the Army · Army Transportation Command (text only, no seals)                                  | "…in production today across federal missions — at the OSW Comptroller, the Department of the Army, and Army Transportation Command…"        |
-| 16  | 3:29–3:47 | 18s | Element 3      | 🟢 App      | **Overview** `/` (scroll to "Built on accredited building blocks") | Building-blocks strip: Databricks · Cloud-native · Agentic orchestration · HITL guardrails + the "not a brittle rules engine / not another manual team" line   | "…orchestrating accredited, already-in-use building blocks — Databricks… and human-in-the-loop guardrails on every output."                  |
-| 17  | 3:47–4:05 | 18s | Element 4      | 🎬 Mograph  | — (NOT in product)                                                 | Badge motif: acquired SBIR topic → Phase III badge → "sole-source eligible"; stopwatch · shield · scale icons.                                                 | "…a subscription-based product at Technology Readiness Level [TRL X]… eligible for SBIR Phase III direct award…"                             |
-| 18  | 4:05–4:20 | 15s | Element 4      | 🟢 App      | **Overview** `/` (scroll to subscription strip)                    | "Offered as a subscription · contact for a quote" strip (no rates shown, per v10)                                                                              | "…sold as a subscription, scoped to the size of your data and your audit workload… we'll put together a quote that fits."                    |
+| 13  | 2:47–3:05 | 18s | Element 2 +SFA | 🟢 App      | **PBC** (same take, scroll)                                        | Auditor-ready package: "Before: ~3 days" struck through → "Delivered in minutes"; **"Accelerating the mission" chip**; cited source line; "Defensible" + SFA chip | "This is what accelerating the mission looks like… delivered to the auditor in minutes — defensible, repeatable…"                            |
+| 14  | 3:05–3:15 | 10s | Bridge         | 🟢 App      | **Lineage** `/lineage`                                             | One-record chain inside the product boundary: AI Reconciliation → PBC Request → Auditor-ready package; TX-1000043 threaded; Auditor node outside the frame     | "…one product, one pipeline. The same record moves from reconciliation through packaging… without ever leaving the product."                 |
+| 15  | 3:15–3:31 | 16s | Element 3      | 🟢 App      | **Overview** `/` (scroll to "In production today")                 | "In production today" missions strip: Dept. of the Army · Army Transportation Command (text only, no seals). **OSW Comptroller removed — Jul 2026 feedback.**  | "…in production today across federal missions — at the Department of the Army and Army Transportation Command…"                              |
+| 16  | 3:31–3:52 | 21s | Element 3      | 🟢 App      | **Overview** `/` (scroll to "Advancing the state of the art")      | Strip now headed **"Advancing the state of the art"**: agents-vs-rules-engines line + Databricks · Cloud-native · Agentic orchestration · HITL guardrails chips | "It advances the state of the art two ways. Agents reason where rules engines can't… cutting manual review an estimated eighty to ninety percent." |
+| 17  | 3:52–4:10 | 18s | Element 4      | 🎬 Mograph  | — (NOT in product)                                                 | Badge motif: acquired SBIR topic → Phase III badge → "sole-source eligible"; stopwatch · shield · scale icons. **TRL locked at 5–6; no "subscription" wording.** | "…a mature, deployable product at Technology Readiness Level five to six… eligible for SBIR Phase Three award — sole-source, in weeks."      |
+| 18  | 4:10–4:20 | 10s | Element 4      | 🟢 App      | **Overview** `/` (scroll to the closing contact strip)             | **"Contact us to learn more"** strip. No pricing, rates, or sales-model language on screen.                                                                    | "Contact us to learn more — and see what Guidehouse and Financial Management of the Future can do for your mission, on your data."           |
 | 19  | 4:20–4:34 | 14s | Close          | 🎬 Mograph  | —                                                                  | CTA card: contact + CDAO Tradewinds Silver Aisle link/QR                                                                                                       | "Find Financial Management of the Future on the CDAO Tradewinds Silver Aisle…"                                                               |
 | 20  | 4:34–4:41 | 7s  | Close          | 🎬 Mograph  | —                                                                  | Final Guidehouse logo lockup on brand bg, fade to black, optional sting                                                                                        | "Guidehouse — mission-ready innovation, audit-ready every day."                                                                              |
 
@@ -97,7 +103,7 @@ top-to-bottom pass and let the editor place the segments.
 2. Let the `PipelineDiagram` token complete at least one full Reconcile → Package → Deliver loop
    (the loop is ~5.4 s). Capture 2 full loops so the editor can pick a clean 14 s → **Shot 5**.
 3. Slowly scroll down, pausing ~4 s each on: "In production today" missions strip → **Shot 15**;
-   "Built on accredited building blocks" strip → **Shot 16**; "Offered as a subscription" strip → **Shot 18**.
+   "Advancing the state of the art" building-blocks strip → **Shot 16**; "Contact us to learn more" strip → **Shot 18**.
    Keep scrolls slow and steady — editors can speed-ramp but can't smooth a jerky scroll.
 
 ### Pass 2 — The guided spine (yields Shots 6, 7, 8, 9, 10, 11, 12, 13) — **one continuous take**
@@ -179,8 +185,12 @@ timing sheet — note Overview footage (Pass 1) is split across Shots 4–5 _and
 
 **Open items to confirm before final render**
 
-1. **Shot 4 on-screen text** — storyboard still carries the "(working title — final name TBD)" caveat;
-   per decision D3 the name is **locked to "Financial Management of the Future"** — drop the caveat in the graphic.
+1. **Shot 4 on-screen text** — resolved: the caveat is out of the storyboard; the name is **locked to
+   "Financial Management of the Future."**
+2. **Shot 19 POC** — the card still reads `poc@guidehouse.com`. Swap in the named POC + email before
+   final render (see `docs/video-feedback-2026-07.md`, item 5).
+3. **Shots 15/16/18 reference frames** — `docs/video-frames/shot15-16-18_overview_strips.png` predates the
+   Jul 2026 Overview changes. Re-capture before recording.
 
 ---
 
@@ -204,7 +214,7 @@ footage — they show colleagues exactly what each state looks like before they 
 | 13       | `shot13_pbc_package.png`           | Auditor-ready package "Defensible" — 3 days → minutes, cited missions, SFA chip, provenance lines                                                                                |
 | 14       | `shot14_lineage_fullchain.png`     | Lineage chain (viewport): AI Reconciliation → PBC (Auto-Accept 97%) → Defensible package, auditor outside boundary                                                               |
 | 14       | `shot14b_lineage_fullpage.png`     | Lineage — full-page version (whole chain + closing line), for a clean wide framing                                                                                               |
-| 15/16/18 | `shot15-16-18_overview_strips.png` | Lower Overview: "In production today" missions · "Built on accredited building blocks" · subscription strips (all three sit together at the page bottom — one frame covers them) |
+| 15/16/18 | `shot15-16-18_overview_strips.png` | Lower Overview: "In production today" missions · "Advancing the state of the art" building blocks · "Contact us to learn more" strips (all three sit together at the page bottom — one frame covers them). **Re-capture: v1 frames still show OSW Comptroller and the subscription strip.** |
 
 **Notes for whoever records:**
 

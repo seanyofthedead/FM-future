@@ -25,10 +25,10 @@
 | 12 | "Reasons across systems, retrieves, assembles" | Reasoning panel animates; **retrieved sources as cards**; package renders; chip "Every record traceable" | PBC provenance trail (staggered) + **Retrieved sources cards** + checks + package | ✅ source cards (PO/GR/GL) + "Every record traceable" chip added |
 | 13 | "3 days → minutes… accelerating the mission" | Before/after clock w/ **CONFIRMED, CITED** numbers (source on screen); SFA chip | PBC package before/after + SFA chip | ✅ confirmed/cited (D1) + SFA chip added |
 | 14 | "One product, one pipeline" | One record token travels reconcile→package→**Audit-Ready outbox**→auditor; **product boundary stays on screen** | Lineage page (3 stages, TX threaded) | ✅ product-boundary frame + auditor (outside the frame) added |
-| 15 | "In production today… OSW Comptroller, Army, ATC" | The **product** adopted across missions; names as text, no seals | — (nothing in product) | ❌ no customers/missions surface in-product |
-| 16 | "Accredited building blocks… Databricks, HITL" | Tech-stack ribbon; brittle stack dissolves into agentic product | Overview "Built on accredited building blocks" strip + HITL note | ✅ in-product strip added (HITL also live in the reject loop) |
-| 17 | "Subscription, TRL X, SBIR Phase III" | Timeline/badge motif | — | 🎬 produced graphic — TRL/SBIR are pitch claims, deliberately NOT fabricated in-product |
-| 18 | "Sold as a subscription… contact for quote" | Clean pricing card | Overview "Offered as a subscription · contact for a quote" strip | ✅ in-product strip added (no rates, per v10) |
+| 15 | "In production today… the Army and ATC" | The **product** adopted across missions; names as text, no seals | Overview "In production today" strip | ✅ in-product strip (OSW Comptroller removed Jul 2026 — see D4) |
+| 16 | "It advances the state of the art two ways…" | Tech-stack ribbon; brittle stack dissolves into agentic product | Overview **"Advancing the state of the art"** strip + HITL note | ✅ strip re-headed to name Element 3 out loud (Jul 2026) |
+| 17 | "Mature product at TRL 5–6, SBIR Phase III" | Timeline/badge motif | — | 🎬 produced graphic — TRL/SBIR are pitch claims, deliberately NOT fabricated in-product. "Subscription" wording removed Jul 2026 |
+| 18 | "Contact us to learn more…" | Clean contact card, no pricing | Overview **"Contact us to learn more"** strip | ✅ replaced the subscription strip (Jul 2026 feedback) |
 | 19 | "Find us on the Tradewinds Silver Aisle" | CTA card, contact/QR | — | 🎬 |
 | 20 | "Guidehouse — audit-ready every day" | Final logo lockup, brand bg | Header brand (Acon + GH, official) | ✅ assets ready |
 
@@ -65,14 +65,14 @@
 8. **Shot 16 — DONE.** Overview now has a **"Built on accredited building blocks"** strip
    (Databricks · Cloud-native services · Agentic orchestration · Human-in-the-loop guardrails)
    with the brittle-rules-engine/manual-team contrast line. HITL is also live in the reject loop.
-9. **Shot 18 — DONE.** Overview has an **"Offered as a subscription · contact for a quote"**
-   strip (no rates shown, per v10).
+9. **Shot 18 — DONE, then revised.** The Overview strip is now **"Contact us to learn more"** —
+   all pricing and sales-model language was pulled in the Jul 2026 feedback pass (see D4).
 
 ### Deliberately NOT built into the product (produced video / motion graphics)
 - **Shots 1–3** — produced cold open + desaturated b-roll (problem framing). No product capture.
-- **Shot 17** — TRL level + SBIR Phase III eligibility are pitch claims with placeholder
-   values ("[TRL X]"); these belong in a produced badge graphic and were **not fabricated**
-   in the product.
+- **Shot 17** — TRL level + SBIR Phase III eligibility are pitch claims (TRL now stated as
+   **5–6**, pending the confirm in compliance #3); these belong in a produced badge graphic and
+   were **not fabricated** in the product.
 - **Shot 19** — CTA / Silver Aisle / QR is a closing card.
 - **Shot 20** — final full-screen logo lockup is a produced end card (brand assets are ready).
 
@@ -112,3 +112,16 @@
 5. **Header/brand** — Acon lockup → Shots 4, 20.
 
 Everything else (1, 2, 3, 16, 17, 18, 19) is produced video / motion graphics, not product capture.
+
+## Decisions — Jul 2026 client feedback pass
+- **D4 — Shot 15 customers → OSW Comptroller REMOVED.** At client request. Shot 15 and the
+  PBC package citation line now name only the Department of the Army and Army Transportation
+  Command. This narrows D1's on-screen source citation and D2's customer list; re-confirm the
+  two remaining names are cleared to show.
+- **D5 — Business model → NO SALES-MODEL LANGUAGE ON SCREEN.** "Sold as a subscription /
+  scoped to your data / contact for a quote" is out of Shots 17 and 18 and out of the Overview.
+  Element 4 is carried by Shot 17 (TRL 5–6 + SBIR Phase III sole-source path); Shot 18 is a pure
+  call to action. Open scoring risk — see decision B in `docs/video-feedback-2026-07.md`.
+- **D6 — Elements 2 and 3 named explicitly.** "Accelerating the mission" and "Advancing the
+  state of the art" now appear verbatim in the narration *and* on screen (PBC package chip,
+  Overview strips), instead of being left implicit.

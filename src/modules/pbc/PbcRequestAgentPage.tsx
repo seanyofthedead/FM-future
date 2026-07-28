@@ -305,7 +305,8 @@ export default function PbcRequestAgentPage() {
               <div className="flex flex-wrap items-center gap-x-6 gap-y-1 border-b border-slate-100 px-5 py-3 text-sm">
                 <span className="text-slate-500 line-through">Before: ~3 days of back-and-forth</span>
                 <span className="font-semibold text-brand-navy">Delivered in minutes</span>
-                <span className="text-xs italic text-slate-500">Confirmed in production · OSW Comptroller · Dept. of the Army · Army Transportation Command</span>
+                <span className="rounded-md border border-brand-green/40 bg-brand-green/10 px-2 py-0.5 text-[11px] font-semibold text-brand-green">Accelerating the mission</span>
+                <span className="text-xs italic text-slate-500">Confirmed in production · Dept. of the Army · Army Transportation Command</span>
                 <StatusBadge tone="green">signed · reconciled · period matched</StatusBadge>
                 <span className="rounded-md border border-brand-navy/20 bg-brand-navy/5 px-2 py-0.5 text-[11px] font-semibold text-brand-navy">Strategic Focus Area · Streamlining Business Processes</span>
               </div>

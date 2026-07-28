@@ -7,6 +7,12 @@ track (`docs/fm-future-storyboard.xlsx`, column C) drops on and syncs shot-for-s
 
 Built per the hand-off spec in `docs/video-draft-shotlist.md` §B/§D.
 
+> ⚠️ **These three masters are v1 and are now STALE.** They predate the Jul 2026 client
+> feedback: the product footage still shows OSW Comptroller and the "Offered as a subscription"
+> strip, and shots 13/16/18 are cut to the old durations. Re-capture the product shots
+> (`capture-live-product.js`) and rebuild before this goes anywhere. Timings below are already
+> updated to the new sheet. See `docs/video-feedback-2026-07.md`.
+
 ## The files (use the first one)
 
 | File                                                                    | Product shots                                                                                              | Use it for                                                               |
@@ -37,8 +43,8 @@ as labeled placeholder slates:
 | 1    | 0:00–0:08 | produced opener | title card / b-roll cold open (no on-camera) |
 | 2    | 0:08–0:28 | b-roll montage  | desaturated b-roll                           |
 | 3    | 0:28–0:46 | motion graphic  | cost-icons → agency-grid mograph             |
-| 17   | 3:47–4:05 | motion graphic  | TRL/SBIR Phase III badge graphic             |
-| 19   | 4:20–4:34 | motion graphic  | CTA card — Silver Aisle link + QR            |
+| 17   | 3:52–4:10 | motion graphic  | TRL 5–6 / SBIR Phase III badge graphic       |
+| 19   | 4:20–4:34 | motion graphic  | CTA card — Silver Aisle link + QR + named POC |
 | 20   | 4:34–4:41 | motion graphic  | Guidehouse logo-lockup end card              |
 
 Until those six are supplied, this is a production-grade **product** cut with
@@ -74,12 +80,12 @@ Cumulative from 0:00. `S` = slate placeholder, `▶` = live app footage.
 | 10  | 2:07–2:19 | 12  | ▶ PBC title + From-Reconciliation |
 | 11  | 2:19–2:31 | 12  | ▶ PBC request submitted           |
 | 12  | 2:31–2:47 | 16  | ▶ Provenance + retrieved sources  |
-| 13  | 2:47–3:03 | 16  | ▶ Auditor-ready package           |
-| 14  | 3:03–3:13 | 10  | ▶ Lineage chain                   |
-| 15  | 3:13–3:29 | 16  | ▶ "In production today" strip     |
-| 16  | 3:29–3:47 | 18  | ▶ Building-blocks strip           |
-| 17  | 3:47–4:05 | 18  | S                                  |
-| 18  | 4:05–4:20 | 15  | ▶ Subscription strip              |
+| 13  | 2:47–3:05 | 18  | ▶ Auditor-ready package           |
+| 14  | 3:05–3:15 | 10  | ▶ Lineage chain                   |
+| 15  | 3:15–3:31 | 16  | ▶ "In production today" strip     |
+| 16  | 3:31–3:52 | 21  | ▶ State-of-the-art strip          |
+| 17  | 3:52–4:10 | 18  | S                                  |
+| 18  | 4:10–4:20 | 10  | ▶ "Contact us to learn more"      |
 | 19  | 4:20–4:34 | 14  | S                                  |
 | 20  | 4:34–4:41 | 7   | S                                  |
 
