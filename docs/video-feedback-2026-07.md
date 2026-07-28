@@ -45,21 +45,31 @@ still carries an older note (2026-06-09) saying the product was pre-deployment w
 and that customer-deployment claims shouldn't be reintroduced; decision D2 later reversed that.
 **Worth a one-line confirmation from Angel/Bizrat that Army and ATC are cleared to name.**
 
-## 3 · SBIR pronunciation at 03:57 (and 04:22)
+## 3 · SBIR pronunciation at 03:57 — and the "Silver Aisle" at 04:22
 
-🎬 **re-record Shot 17** · ❓ **04:22 is likely not an error — see below**
+🎬 **re-record Shots 17 and 19** · ⚠️ **04:22 is a script error, not just a read — see below**
 
 - **03:57 (Shot 17)** — agreed. The storyboard now carries an explicit VO note in the new
   **"VO / pronunciation notes"** column: _say SBIR as a word — **"SY-ber"** (rhymes with fiber),
   not spelled out S-B-I-R._ It occurs twice in that line. Also: say **"Phase Three"**, not
   "Phase I-I-I".
-- **04:22 (Shot 19)** — this one I'd push back on. The line is _"Find Financial Management of
-  the Future on the CDAO Tradewinds **Silver Aisle**."_ The Silver Aisle is the actual name of
-  the CDAO Tradewinds Solutions Marketplace aisle we're submitting into — it isn't a
-  mispronunciation of SBIR, and SBIR isn't mentioned in that line at all. Recommend keeping the
-  wording as written. It's noted in the storyboard so it doesn't get "corrected" in the next pass.
-  If it read as confusing to a reviewer, the cheap fix is a lower-third on Shot 19 reading
-  "CDAO Tradewinds Solutions Marketplace — Silver Aisle" rather than a re-record.
+- **04:22 (Shot 19)** — **Angel was right, and the problem is bigger than the read.** The v1
+  script literally says "CDAO Tradewinds **Silver Aisle**." There is no Silver Aisle. The aisle
+  is the **SBIR/STTR Aisle** of the Tradewinds Solutions Marketplace — commonly written "SBIR
+  Aisle." So the narration came out as "silver aisle" because that is what the script said, and
+  the script said it because "SBIR Aisle," spoken as "SY-ber aisle," was mis-transcribed at some
+  point. Sources:
+  [Tradewinds SBIR/STTR Aisle](https://www.tradewindai.com/sbir-sttr-aisle) ·
+  [Tradewinds Solutions Marketplace](https://www.tradewindai.com/tw-marketplace).
+
+  **Fixed:** Shot 19's script now reads _"Find Financial Management of the Future on the CDAO
+  Tradewinds Solutions Marketplace, in the SBIR Aisle"_ and the on-screen text reads
+  **"CDAO Tradewinds Solutions Marketplace · SBIR/STTR Aisle."** This is a **re-record and a
+  re-render of the Shot 19 CTA card**, not just a pronunciation note. Every other "Silver Aisle"
+  reference in the repo (shot list, editor packet, build scripts, alignment doc) is corrected too.
+
+  Note the same pronunciation rule applies here as in Shot 17: SBIR is said as a word — this line
+  reads "the SY-ber aisle."
 
 ## 4 · "Sold as a subscription" references at 04:09
 
@@ -120,7 +130,8 @@ be reused past 2:47.
 2. **Re-record the VO from Shot 13 onward** (2:47→), plus Shot 17 for the SBIR pronunciation.
    Shots 1–12 are unchanged and their takes still work.
 3. **Re-render Shot 17's badge graphic** — TRL reads **5–6**, drop "subscription-based".
-4. **Re-render Shot 19's CTA card** with the named POC.
+4. **Re-render Shot 19's CTA card** with the named POC **and the corrected aisle name**
+   ("CDAO Tradewinds Solutions Marketplace · SBIR/STTR Aisle" — the v1 card's "Silver Aisle" is wrong).
 5. **Re-shoot the reference stills.** `docs/video-frames/shot15-16-18_overview_strips.png` and
    `docs/demo-walkthrough/shot-15-16-18-strips.png` still show OSW Comptroller and the
    subscription strip.

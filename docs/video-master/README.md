@@ -44,7 +44,7 @@ as labeled placeholder slates:
 | 2    | 0:08–0:28 | b-roll montage  | desaturated b-roll                           |
 | 3    | 0:28–0:46 | motion graphic  | cost-icons → agency-grid mograph             |
 | 17   | 3:52–4:10 | motion graphic  | TRL 5–6 / SBIR Phase III badge graphic       |
-| 19   | 4:20–4:34 | motion graphic  | CTA card — Silver Aisle link + QR + named POC |
+| 19   | 4:20–4:34 | motion graphic  | CTA card — SBIR/STTR Aisle link + QR + named POC |
 | 20   | 4:34–4:41 | motion graphic  | Guidehouse logo-lockup end card              |
 
 Until those six are supplied, this is a production-grade **product** cut with

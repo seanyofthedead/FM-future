@@ -48,7 +48,7 @@ slate "$SEG/s01.mp4"  8 "SHOT 1"  "Problem - cold open (title card / b-roll, no 
 slate "$SEG/s02.mp4" 20 "SHOT 2"  "Problem - desaturated b-roll montage"                "INSERT B-ROLL"             "20s"
 slate "$SEG/s03.mp4" 18 "SHOT 3"  "Problem - cost icons to agency grid (mograph)"       "INSERT MOTION GRAPHIC"     "18s"
 slate "$SEG/s17.mp4" 18 "SHOT 17" "TRL 5-6 / SBIR Phase III badge (mograph)"            "INSERT MOTION GRAPHIC"     "18s"
-slate "$SEG/s19.mp4" 14 "SHOT 19" "CTA - Tradewinds Silver Aisle + QR (mograph)"        "INSERT MOTION GRAPHIC"     "14s"
+slate "$SEG/s19.mp4" 14 "SHOT 19" "CTA - Tradewinds SBIR/STTR Aisle + QR (mograph)"     "INSERT MOTION GRAPHIC"     "14s"
 slate "$SEG/s20.mp4"  7 "SHOT 20" "Guidehouse logo lockup end card (mograph)"           "INSERT MOTION GRAPHIC"     "7s"
 
 echo "== cut 14 live product shots =="

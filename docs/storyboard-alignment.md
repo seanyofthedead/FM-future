@@ -29,7 +29,7 @@
 | 16 | "It advances the state of the art two ways…" | Tech-stack ribbon; brittle stack dissolves into agentic product | Overview **"Advancing the state of the art"** strip + HITL note | ✅ strip re-headed to name Element 3 out loud (Jul 2026) |
 | 17 | "Mature product at TRL 5–6, SBIR Phase III" | Timeline/badge motif | — | 🎬 produced graphic — TRL/SBIR are pitch claims, deliberately NOT fabricated in-product. "Subscription" wording removed Jul 2026 |
 | 18 | "Contact us to learn more…" | Clean contact card, no pricing | Overview **"Contact us to learn more"** strip | ✅ replaced the subscription strip (Jul 2026 feedback) |
-| 19 | "Find us on the Tradewinds Silver Aisle" | CTA card, contact/QR | — | 🎬 |
+| 19 | "Find us on the Tradewinds Solutions Marketplace, SBIR Aisle" | CTA card, contact/QR | — | 🎬 corrected Jul 2026 — "Silver Aisle" does not exist |
 | 20 | "Guidehouse — audit-ready every day" | Final logo lockup, brand bg | Header brand (Acon + GH, official) | ✅ assets ready |
 
 ## Gaps that do not align (prioritized by demo-fidelity impact)
@@ -73,7 +73,7 @@
 - **Shot 17** — TRL level + SBIR Phase III eligibility are pitch claims (TRL now stated as
    **5–6**, pending the confirm in compliance #3); these belong in a produced badge graphic and
    were **not fabricated** in the product.
-- **Shot 19** — CTA / Silver Aisle / QR is a closing card.
+- **Shot 19** — CTA / SBIR-STTR Aisle / QR is a closing card.
 - **Shot 20** — final full-screen logo lockup is a produced end card (brand assets are ready).
 
 ## Strengths to lean on (already aligned — record these as-is)

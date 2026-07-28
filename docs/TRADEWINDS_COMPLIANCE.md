@@ -79,3 +79,7 @@ at 4:41 (#6).
 - [ ] **P1 · #22** — Re-record VO from Shot 13 onward and re-capture product footage; SBIR said as a
   word ("SY-ber"), not spelled out.
     - Where: Shots 13–18 · Basis: Jul 2026 client feedback · Owner: Sean / Jeff · Status: Open — script, timings and build durations are updated; the three masters in `docs/video-master/` are stale until this is done.
+- [x] **P1 · #23** — Correct the marketplace aisle name: the v1 script said "Silver Aisle,"
+  which does not exist. It is the **CDAO Tradewinds Solutions Marketplace SBIR/STTR Aisle**
+  ("SBIR Aisle").
+    - Where: Shot 19 script + CTA card · Basis: VII.c.xvii / accuracy · Owner: Sean · Status: Fixed in the storyboard and all production docs (Jul 2026). Needs the Shot 19 re-record + CTA card re-render. Refs: https://www.tradewindai.com/sbir-sttr-aisle · https://www.tradewindai.com/tw-marketplace
